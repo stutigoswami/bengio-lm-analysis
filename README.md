@@ -34,9 +34,9 @@ what the paper argues
   in names like julia, olivia, sofia. a and e are basically best friends.
 
 ## To do
--[ ] Implement the skip connection from the original paper and compare 
+- [ ] Implement the skip connection from the original paper and compare 
   the embedding space against the baseline
--[ ]Repeat the analysis on a non-English names dataset to test whether 
+- [ ] Repeat the analysis on a non-English names dataset to test whether 
   the same clusters emerge or whether the structure looks completely different
 
 ## Reference
