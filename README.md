@@ -9,7 +9,7 @@ I wanted to do was visualise the 2D character embedding space and
 see what structure the network figures out on its own, without being 
 told anything about phonetics or linguistics. turns out it figures 
 out quite a bit, and what it figures out lines up pretty well with 
-what Bengio argued in the paper.
+what the paper argues
 
 ## What I did
 - Implemented the MLP from the paper in PyTorch from scratch
@@ -18,7 +18,7 @@ what Bengio argued in the paper.
   much time analysing why q is so lonely
 
 ## Main findings
-- Bengio argued that learned embeddings capture task-specific signal 
+- The paper argued that learned embeddings capture task-specific signal 
   rather than general corpus statistics, and the outlier analysis 
   directly confirms this. p and f are common in English generally but 
   rare in names, and the model pushes them to the periphery. a 
@@ -29,7 +29,7 @@ what Bengio argued in the paper.
   the network does not care about linguistics, only statistics. which is 
   kind of the whole point of the paper.
 - Vowels partially cluster but not uniformly, which also lines up with 
-  Bengio's claim that similar words (or in this case characters) end up 
+  the paper's claim that similar words (or in this case characters) end up 
   close in embedding space. i is isolated because of the ia ending pattern 
   in names like julia, olivia, sofia. a and e are basically best friends.
 
