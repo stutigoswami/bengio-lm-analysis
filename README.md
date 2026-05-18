@@ -33,11 +33,6 @@ what the paper argues
   close in embedding space. i is isolated because of the ia ending pattern 
   in names like julia, olivia, sofia. a and e are basically best friends.
 
-## To do
-- [ ] Implement the skip connection from the original paper and compare 
-  the embedding space against the baseline
-- [ ] Repeat the analysis on a non-English names dataset to test whether 
-  the same clusters emerge or whether the structure looks completely different
 
 ## Reference
 Bengio et al. (2003). A Neural Probabilistic Language Model. JMLR.
